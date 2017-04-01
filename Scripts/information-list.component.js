@@ -2,17 +2,17 @@
 
 // Register `phoneList` component, along with its associated controller and template
 angular.
-module('phonecatApp').
-component('phoneList', {
+module('informationApp').
+component('informationList', {
     template:
     '<ul>' +
-    '<li ng-repeat="phone in $ctrl.phones">' +
-    '<span>{{phone.name}}</span>' +
-    '<p>{{phone.snippet}}</p>' +
+    '<li ng-repeat="informationItem in $ctrl.information">' +
+    '<span>{{informationItem.name}}</span>' +
+    '<p>{{informationItem.snippet}}</p>' +
     '</li>' +
     '</ul>',
-    controller: function PhoneListController() {
-        this.phones = [
+    controller: function InformationListController() {
+        this.information = [
             {
                 name: 'Nexus S',
                 snippet: 'Fast just got faster with Nexus S.'

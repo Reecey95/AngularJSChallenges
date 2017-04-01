@@ -41,5 +41,5 @@
 
 'use strict';
 
-// Define the `phonecatApp` module
-angular.module('phonecatApp', []);
+// Define the `informationApp` module
+angular.module('informationApp', []);
