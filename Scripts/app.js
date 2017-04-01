@@ -43,3 +43,14 @@
 
 // Define the `informationApp` module
 angular.module('informationApp', []);
+
+
+
+// var App = angular.module('App', []);
+//
+// App.controller('InformationCtrl', function($scope, $http) {
+//     $http.get('../information.json')
+//         .then(function(res){
+//             $scope.todos = res.data;
+//         });
+// });
